@@ -1,0 +1,41 @@
+input {
+  width: 350px;
+  height: 40px;
+  background-color: greenyellow;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+
+button {
+  width: 60px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  padding: 5px;
+}
+
+.field:first-child {
+  margin-left: 10px;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
